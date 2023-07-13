@@ -1,7 +1,8 @@
 from typing import List
 
 
-def addSpace(s: str, spaces :List[int]):
+class Solution:
+    def addSpaces(self, s: str, spaces: List[int]) -> str:
         stri = ""
         p = 0
 
@@ -15,6 +16,7 @@ def addSpace(s: str, spaces :List[int]):
 
         # print(stri)
         return stri
+
 
 """
 Test case
