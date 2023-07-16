@@ -1,9 +1,9 @@
 Competative Programming
 ===
 
-## Papar Information
+## Repo Information
 - Title:  `Competative Programming`
-- Authors:  `Naol Ketema`
+- Author:  `Naol Ketema`
 
 
 ## Use
@@ -35,12 +35,4 @@ Competative Programming
 |—— pow_x_n.py
 |—— valid_anagram.py
 ```
-## Code Details
-### Tested Platform
-- software
-  ```
-  OS: Debian unstable (May 2021), Ubuntu LTS
-  Python: 3.8.5 
-  PyTorch: 1.7.1, 1.8.1
-  ```
 
