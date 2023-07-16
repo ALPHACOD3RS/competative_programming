@@ -1,4 +1,6 @@
-def insertionSort1( arr):
+
+
+def insertionSort1(n, arr):
     for i in range(1,len(arr)):
         key = arr[i]
 
@@ -12,12 +14,11 @@ def insertionSort1( arr):
         arr[j + 1] = key
         
     print(" ".join(str(x) for x in arr))
+    # Write your code here
 
-arr = [2, 4 ,6, 8 ,3]
-insertionSort1(arr)
+if __name__ == '__main__':
+    n = int(input().strip())
 
+    arr = list(map(int, input().rstrip().split()))
 
-# 2 4 6 8 8 
-# 2 4 6 6 8 
-# 2 4 4 6 8 
-# 2 3 4 6 8 
+    insertionSort1(n, arr)
