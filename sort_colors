@@ -1,0 +1,26 @@
+# def sortColors(nums):
+#     b = []
+#     for i in range(3):
+#         key = [0,1,2]
+#         for j in range(len(nums)):
+#             if key[i] == nums[j]:
+#                 b.append(key[i])
+#     print(b)
+nums = [2,0,2,1,1,0]
+# sortColors(nums)
+
+class Solution:
+    def sortColors(nums: list[int]) -> None:
+        """
+        Do not return anything, modify nums in-place instead.
+        """
+        b = []
+        for i in range(3):
+            key = [0,1,2]
+            for j in range(len(nums)):
+                if key[i] == nums[j]:
+                    b.append(key[i])
+        nums = b
+        print (nums)
+
+Solution.sortColors(nums)
